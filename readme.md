@@ -11,3 +11,7 @@
 * "For" Loop
 * "If" statement
 * Law of Large Numbers
+
+## Section 3: Fundamentals of R
+* Vectors
+
