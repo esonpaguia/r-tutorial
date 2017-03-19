@@ -10,8 +10,13 @@
 * "While" Loop
 * "For" Loop
 * "If" statement
-* Law of Large Numbers
+* Exercise: Law of Large Numbers
 
 ## Section 3: Fundamentals of R
 * Vectors
-
+* Using the [] brackets
+* Vectorized operations
+* The power of vectorized operations
+* Functions in R
+* Packages in R
+* Exercise: Financial Statement Analysis
