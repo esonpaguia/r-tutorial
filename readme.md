@@ -3,7 +3,7 @@
 ## Section 1
 * ggplot
 
-## Section 2
+## Section 2: Core Programming Principles
 * Types of variables
 * Using Variables
 * Logical Variables and Operators
