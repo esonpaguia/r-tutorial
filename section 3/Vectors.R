@@ -1,5 +1,9 @@
-c() # combine function
+# How to create vectors
+x <- c(1,123,534,13,4)  # combine
+y <- seq(201,250,11)    # sequence - similar to ':'
+z <- rep("Hi!", 3)      # replicate
 
+# combine
 V1 <- c(3, 45,56,732)
 V1
 is.numeric(V1)
@@ -17,9 +21,7 @@ V3
 is.character(V3)
 is.numeric(V3)
 
-seq() # sequence - like ':'
-rep() # replicate
-
+# sequence
 seq(1,15)
 1:15
 
@@ -27,6 +29,7 @@ seq(1,15,2)
 z <- seq(1,15,4)
 z
 
+# replicate
 rep(3, 50)
 d <- rep(3, 50)
 

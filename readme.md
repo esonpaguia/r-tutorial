@@ -14,9 +14,8 @@
 
 ## Section 3: Fundamentals of R
 * Vectors
-* Using the [] brackets
+* Using the [] brackets to access vectors
 * Vectorized operations
-* The power of vectorized operations
 * Functions in R
 * Packages in R
 * Exercise: Financial Statement Analysis
