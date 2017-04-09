@@ -35,4 +35,9 @@
 
   Results for dollar values need to be calculated with $0.01 precision, but need to be presented in Units of $1000 (i.e. 1k) with no decimal points.
 
-  Note: Your colleague has warned you that it is okay for tax for any given month to be negative (in accounting terms, negative tax translates into a deferred tax asset). 
+  Note: Your colleague has warned you that it is okay for tax for any given month to be negative (in accounting terms, negative tax translates into a deferred tax asset).
+
+## Section 4: Matrices
+* Indexation
+* First Matrix
+* Different ways to create a matrix
