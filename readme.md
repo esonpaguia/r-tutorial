@@ -39,6 +39,6 @@
 
 ## Section 4: Matrices
 * [Indexation](./section-4/indexation.R)
-* First Matrix
+* [First Matrix](./section-4/first matrix.R)
 * Different ways to create a matrix
 * Naming Dimensions
