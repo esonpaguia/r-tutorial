@@ -41,4 +41,4 @@
 * [Indexation](section_4/indexation.R)
 * [First Matrix](section_4/first_matrix.R)
 * [Different ways to create a matrix](section_4/different_ways_to_create_a_matrix.R)
-* [Naming Dimensions](section_4/naming_dimensions.R)
+* [Naming Dimensions](section_4/naming%20dimensions.R)
