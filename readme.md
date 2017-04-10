@@ -48,4 +48,5 @@
 * [First Matrix](section%204/first_matrix.R)
 * [Different ways to create a matrix](section%204/different_ways_to_create_a_matrix.R)
 * [Naming Dimensions](section%204/naming_dimensions.R)
+* [Matrix operations](section%204/matrix_operations.R)
 * [Basketball Data](section%204/basketball_data.R)
