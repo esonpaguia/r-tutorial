@@ -38,6 +38,7 @@
   Note: Your colleague has warned you that it is okay for tax for any given month to be negative (in accounting terms, negative tax translates into a deferred tax asset).
 
 ## Section 4: Matrices
-* Indexation
+* [Indexation](./section-4/indexation.R)
 * First Matrix
 * Different ways to create a matrix
+* Naming Dimensions
