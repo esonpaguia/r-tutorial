@@ -1,10 +1,4 @@
-#Dear Student,
-#
-#Welcome to the world of Basketball Data!
-#I'm sure you will enjoy this section of the R Programming course.
-#
-#Instructions for this dataset:
-# Simply select ALL the lines in this script by pressing 
+# Simply select ALL the lines in this script by pressing
 # CTRL+A on Windows or CMND+A on a Mac and execute them
 # Once you have executed the commands the following objects
 # will be created:
@@ -17,36 +11,26 @@
 # Vectors:
 # - Players
 # - Seasons
-#We will go understand these inside the course.
-#
-#Sincerely,
-#Kirill Eremenko
-#www.superdatascience.com
 
-#Copyright: These datasets were prepared using publicly available data.
-#           However, theses scripts are subject to Copyright Laws. 
-#           If you wish to use these R scripts outside of the R Programming Course
-#           by Kirill Eremenko, you may do so by referencing www.superdatascience.com in your work.
+# Comments:
+# Seasons are labeled based on the first year in the season
+# E.g. the 2012-2013 season is preseneted as simply 2012
 
-#Comments:
-#Seasons are labeled based on the first year in the season
-#E.g. the 2012-2013 season is preseneted as simply 2012
+# Notes and Corrections to the data:
+# Kevin Durant: 2006 - College Data Used
+# Kevin Durant: 2005 - Proxied With 2006 Data
+# Derrick Rose: 2012 - Did Not Play
+# Derrick Rose: 2007 - College Data Used
+# Derrick Rose: 2006 - Proxied With 2007 Data
+# Derrick Rose: 2005 - Proxied With 2007 Data
 
-#Notes and Corrections to the data:
-#Kevin Durant: 2006 - College Data Used
-#Kevin Durant: 2005 - Proxied With 2006 Data
-#Derrick Rose: 2012 - Did Not Play
-#Derrick Rose: 2007 - College Data Used
-#Derrick Rose: 2006 - Proxied With 2007 Data
-#Derrick Rose: 2005 - Proxied With 2007 Data
-
-#Seasons
+# Seasons
 Seasons <- c("2005","2006","2007","2008","2009","2010","2011","2012","2013","2014")
 
-#Players
+# Players
 Players <- c("KobeBryant","JoeJohnson","LeBronJames","CarmeloAnthony","DwightHoward","ChrisBosh","ChrisPaul","KevinDurant","DerrickRose","DwayneWade")
 
-#Salaries
+# Salaries
 KobeBryant_Salary <- c(15946875,17718750,19490625,21262500,23034375,24806250,25244493,27849149,30453805,23500000)
 JoeJohnson_Salary <- c(12000000,12744189,13488377,14232567,14976754,16324500,18038573,19752645,21466718,23180790)
 LeBronJames_Salary <- c(4621800,5828090,13041250,14410581,15779912,14500000,16022500,17545000,19067500,20644400)
@@ -63,7 +47,7 @@ rm(KobeBryant_Salary, JoeJohnson_Salary, CarmeloAnthony_Salary, DwightHoward_Sal
 colnames(Salary) <- Seasons
 rownames(Salary) <- Players
 
-#Games 
+# Games
 KobeBryant_G <- c(80,77,82,82,73,82,58,78,6,35)
 JoeJohnson_G <- c(82,57,82,79,76,72,60,72,79,80)
 LeBronJames_G <- c(79,78,75,81,76,79,62,76,77,69)
@@ -80,7 +64,7 @@ rm(KobeBryant_G, JoeJohnson_G, CarmeloAnthony_G, DwightHoward_G, ChrisBosh_G, Le
 colnames(Games) <- Seasons
 rownames(Games) <- Players
 
-#Minutes Played
+# Minutes Played
 KobeBryant_MP <- c(3277,3140,3192,2960,2835,2779,2232,3013,177,1207)
 JoeJohnson_MP <- c(3340,2359,3343,3124,2886,2554,2127,2642,2575,2791)
 LeBronJames_MP <- c(3361,3190,3027,3054,2966,3063,2326,2877,2902,2493)
@@ -97,7 +81,7 @@ rm(KobeBryant_MP, JoeJohnson_MP, CarmeloAnthony_MP, DwightHoward_MP, ChrisBosh_M
 colnames(MinutesPlayed) <- Seasons
 rownames(MinutesPlayed) <- Players
 
-#Field Goals
+# Field Goals
 KobeBryant_FG <- c(978,813,775,800,716,740,574,738,31,266)
 JoeJohnson_FG <- c(632,536,647,620,635,514,423,445,462,446)
 LeBronJames_FG <- c(875,772,794,789,768,758,621,765,767,624)
@@ -108,13 +92,13 @@ ChrisPaul_FG <- c(407,381,630,631,314,430,425,412,406,568)
 KevinDurant_FG <- c(306,306,587,661,794,711,643,731,849,238)
 DerrickRose_FG <- c(208,208,208,574,672,711,302,0,58,338)
 DwayneWade_FG <- c(699,472,439,854,719,692,416,569,415,509)
-#Matrix
+# Matrix
 FieldGoals <- rbind(KobeBryant_FG, JoeJohnson_FG, LeBronJames_FG, CarmeloAnthony_FG, DwightHoward_FG, ChrisBosh_FG, ChrisPaul_FG, KevinDurant_FG, DerrickRose_FG, DwayneWade_FG)
 rm(KobeBryant_FG, JoeJohnson_FG, LeBronJames_FG, CarmeloAnthony_FG, DwightHoward_FG, ChrisBosh_FG, ChrisPaul_FG, KevinDurant_FG, DerrickRose_FG, DwayneWade_FG)
 colnames(FieldGoals) <- Seasons
 rownames(FieldGoals) <- Players
 
-#Field Goal Attempts
+# Field Goal Attempts
 KobeBryant_FGA <- c(2173,1757,1690,1712,1569,1639,1336,1595,73,713)
 JoeJohnson_FGA <- c(1395,1139,1497,1420,1386,1161,931,1052,1018,1025)
 LeBronJames_FGA <- c(1823,1621,1642,1613,1528,1485,1169,1354,1353,1279)
@@ -125,13 +109,13 @@ ChrisPaul_FGA <- c(947,871,1291,1255,637,928,890,856,870,1170)
 KevinDurant_FGA <- c(647,647,1366,1390,1668,1538,1297,1433,1688,467)
 DerrickRose_FGA <- c(436,436,436,1208,1373,1597,695,0,164,835)
 DwayneWade_FGA <- c(1413,962,937,1739,1511,1384,837,1093,761,1084)
-#Matrix
+# Matrix
 FieldGoalAttempts <- rbind(KobeBryant_FGA, JoeJohnson_FGA, LeBronJames_FGA, CarmeloAnthony_FGA, DwightHoward_FGA, ChrisBosh_FGA, ChrisPaul_FGA, KevinDurant_FGA, DerrickRose_FGA, DwayneWade_FGA)
 rm(KobeBryant_FGA, JoeJohnson_FGA, LeBronJames_FGA, CarmeloAnthony_FGA, DwightHoward_FGA, ChrisBosh_FGA, ChrisPaul_FGA, KevinDurant_FGA, DerrickRose_FGA, DwayneWade_FGA)
 colnames(FieldGoalAttempts) <- Seasons
 rownames(FieldGoalAttempts) <- Players
 
-#Points
+# Points
 KobeBryant_PTS <- c(2832,2430,2323,2201,1970,2078,1616,2133,83,782)
 JoeJohnson_PTS <- c(1653,1426,1779,1688,1619,1312,1129,1170,1245,1154)
 LeBronJames_PTS <- c(2478,2132,2250,2304,2258,2111,1683,2036,2089,1743)
@@ -142,7 +126,7 @@ ChrisPaul_PTS <- c(1258,1104,1684,1781,841,1268,1189,1186,1185,1564)
 KevinDurant_PTS <- c(903,903,1624,1871,2472,2161,1850,2280,2593,686)
 DerrickRose_PTS <- c(597,597,597,1361,1619,2026,852,0,159,904)
 DwayneWade_PTS <- c(2040,1397,1254,2386,2045,1941,1082,1463,1028,1331)
-#Matrix
+# Matrix
 Points <- rbind(KobeBryant_PTS, JoeJohnson_PTS, LeBronJames_PTS, CarmeloAnthony_PTS, DwightHoward_PTS, ChrisBosh_PTS, ChrisPaul_PTS, KevinDurant_PTS, DerrickRose_PTS, DwayneWade_PTS)
 rm(KobeBryant_PTS, JoeJohnson_PTS, LeBronJames_PTS, CarmeloAnthony_PTS, DwightHoward_PTS, ChrisBosh_PTS, ChrisPaul_PTS, KevinDurant_PTS, DerrickRose_PTS, DwayneWade_PTS)
 colnames(Points) <- Seasons
