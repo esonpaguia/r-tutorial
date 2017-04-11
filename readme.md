@@ -49,4 +49,8 @@
 * [Different ways to create a matrix](section%204/different_ways_to_create_a_matrix.R)
 * [Naming Dimensions](section%204/naming_dimensions.R)
 * [Matrix operations](section%204/matrix_operations.R)
+* [Matplot](section%204/matplot.R)
+* [Subsetting](section%204/subsetting.R)
+* [Visualizing subsets](section%204/visualizing_subsets.R)
+* [Creating a function](section%204/creating_a_function.R)
 * [Basketball Data](section%204/basketball_data.R)
