@@ -1,7 +1,5 @@
 # Note: Run basketball_data.R first
 
-# Specific player
-
 myplot <- function (rows) {
   data <- MinutesPlayed[rows,,drop=F]
   matplot(t(data), type="b", pch = 15:18, col=c(1:4,6))
@@ -22,13 +20,27 @@ myplot2(Salary) # defaults to 10
 myplot2(MinutesPlayed/Games)
 myplot2(MinutesPlayed/Games, 3)
 
-myplot2(Games)
+# Salary
+myplot2(Salary)
+myplot2(Salary/Games)
+myplot2(Salary/FieldGoals)
+
+# In-Game Metrics
+myplot2(MinutesPlayed)
 myplot2(Points)
-myplot2(Points/Games)
+
+# In-Game Metrics Normalized
+myplot2(FieldGoals/Games)
 myplot2(FieldGoals/FieldGoalAttempts)
 myplot2(FieldGoalAttempts/Games)
+myplot2(Points/Games)
+
+# Interesting Observation
 myplot2(MinutesPlayed/Games)
-myplot2(FieldGoals/Games)
-myplot2(Games/Games)
+myplot2(Games)
+
+# Time is valuable
 myplot2(FieldGoals/MinutesPlayed)
+
+# Player Style
 myplot2(Points/FieldGoals)

@@ -40,10 +40,11 @@
 
     Note: Your colleague has warned you that it is okay for tax for any given month to be negative (in accounting terms, negative tax translates into a deferred tax asset).
 
-  * [Financial Statement Data](section%203/financial_statement_analysis.R)
-  * [Financial Statement Analysis Solution](section%203/financial_statement_analysis_solution.R)
+  * [Exercise Dataset](section%203/financial_statement_analysis_dataset.R)
+  * [Solution](section%203/financial_statement_analysis_solution.R)
 
 ## Section 4: Matrices
+* [Basketball Data](section%204/basketball_dataset.R)
 * [Indexation](section%204/indexation.R)
 * [First Matrix](section%204/first_matrix.R)
 * [Different ways to create a matrix](section%204/different_ways_to_create_a_matrix.R)
@@ -53,4 +54,19 @@
 * [Subsetting](section%204/subsetting.R)
 * [Visualizing subsets](section%204/visualizing_subsets.R)
 * [Creating a function](section%204/creating_a_function.R)
-* [Basketball Data](section%204/basketball_data.R)
+* Exercise
+  * Scenario
+
+    You have been supplied data for two more additional in-game statistics:
+    * Free Throws
+    * Free Throw Attempts
+
+    You need to create three plots that portray the following insights:
+    * Free Throw Attempts per game
+    * Accuracy of Free Throws
+    * Player playing style (2 vs 3 points preference) excluding Free Throws. Each Free Throw is worth 1 points
+
+    The data has been supplied in the form of vectors. You will have to create the two matrices before you proceed with the analysis.
+
+    * [Exercise Dataset](section%204/free_throws_dataset.R)
+    * [Solution](section%204/free_throws_solution.R)
