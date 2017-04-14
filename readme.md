@@ -40,7 +40,7 @@
 
     Note: Your colleague has warned you that it is okay for tax for any given month to be negative (in accounting terms, negative tax translates into a deferred tax asset).
 
-  * [Exercise Dataset](section%203/financial_statement_analysis_dataset.R)
+  * [Dataset](section%203/financial_statement_analysis_dataset.R)
   * [Solution](section%203/financial_statement_analysis_solution.R)
 
 ## Section 4: Matrices
@@ -68,5 +68,5 @@
 
     The data has been supplied in the form of vectors. You will have to create the two matrices before you proceed with the analysis.
 
-    * [Exercise Dataset](section%204/free_throws_dataset.R)
+    * [Dataset](section%204/free_throws_dataset.R)
     * [Solution](section%204/free_throws_solution.R)
