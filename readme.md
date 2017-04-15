@@ -72,5 +72,7 @@
     * [Solution](section%204/free_throws_solution.R)
 
 ## Section 5: Data Frames
-* Importing the dataset
-* Exploring the dataset
+* [Importing the dataset](section%205/importing_the_dataset.R)
+* [Exploring the dataset](section%205/exploring_the_dataset.R)
+* [Using the $ sign]](section%205/using_the_dollar_sign.R)
+* [Basic operations with a data frame](section%205/basic_operations_with_a_data_frame.R)
