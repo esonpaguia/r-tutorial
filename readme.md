@@ -70,3 +70,7 @@
 
     * [Dataset](section%204/free_throws_dataset.R)
     * [Solution](section%204/free_throws_solution.R)
+
+## Section 5: Data Frames
+* Importing the dataset
+* Exploring the dataset
