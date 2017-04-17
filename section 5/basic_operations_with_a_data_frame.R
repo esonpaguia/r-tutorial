@@ -29,3 +29,7 @@ head(data)
 data$xyz <- 1:5 # recycles
 head(data, n=12)
 
+# Remove column
+data$MyCalc <- NULL
+data$xyz <- NULL
+head(data)

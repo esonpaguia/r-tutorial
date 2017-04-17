@@ -76,3 +76,5 @@
 * [Exploring the dataset](section%205/exploring_the_dataset.R)
 * [Using the $ sign]](section%205/using_the_dollar_sign.R)
 * [Basic operations with a data frame](section%205/basic_operations_with_a_data_frame.R)
+* [Filtering a data frame](section%205/filtering_a_data_frame.R)
+* [Introduction to qplot](section%205/introduction_to_qplot.R)
