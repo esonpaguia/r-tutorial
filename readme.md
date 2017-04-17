@@ -88,6 +88,4 @@
 * [Visualizing with qplot - Part 2](section%205/visualizing_with_qplot_2.R)
   - Produce a second scatterplot also illustrating Birth Rate and Internet Usage statistics by Country.
 
-    However, this time the scatterplot needs to be categorised by Countries’ Regions.
-
-    Additional data has been supplied in the form of R vectors.
+    The scatterplot needs to be categorized by Countries' Regions.
