@@ -79,6 +79,6 @@
 * [Filtering a data frame](section%205/filtering_a_data_frame.R)
 * [Introduction to qplot](section%205/introduction_to_qplot.R)
 * [Visualizing with qplot](section%205/visualizing_with_qplot.R)
-  - You are required to produce a scatterplot illustrating Birth Rate and Internet Usage statistics by Country.
+  - Produce a scatterplot illustrating Birth Rate and Internet Usage statistics by Country.
 
-  The scatterplot needs to also be categorised by Countries’ Income Groups. 
+    The scatterplot needs to also be categorised by Countries’ Income Groups.
