@@ -83,4 +83,4 @@
 
     The scatterplot needs to also be categorised by Countries' Income Groups.
 * [Building data frames](section%205/building_data_frames.R)
-  - Additional dataset: [CountryRegionVectors](section%205/CountryRegionVectors.R)
+  - Additional dataset: [Country & Region vectors](section%205/CountryRegionVectors.R)
