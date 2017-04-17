@@ -1,35 +1,32 @@
-library("rstudioapi")
-
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-
-data <- read.csv("DemographicData.csv")
+# Run load_demographic_dataset.R first
+source("load_demographic_dataset.R")
 
 # Subsetting
-data[1:10,]
-data[3:8,]
-data[c(4,101),]
+demographicData[1:10,]
+demographicData[3:8,]
+demographicData[c(4,101),]
 
 # Extracting
 
 # If you extract one row from a matrix, it turns to a vector. 
 # If you extract one row from a data frame, it stays as a data frame
-is.data.frame(data[1,]) # no need for drop=F
+is.data.frame(demographicData[1,]) # no need for drop=F
 
 # But if you extract a column from a data frame, it turns to a vector
-is.data.frame(data[,1, drop=F]) # need for drop=F
+is.data.frame(demographicData[,1, drop=F]) # need for drop=F
 
 # Math operations in columns
-data$Birth.rate * data$Internet.users
-data$Birth.rate + data$Internet.users
+demographicData$Birth.rate * demographicData$Internet.users
+demographicData$Birth.rate + demographicData$Internet.users
 
 # Add column
-data$MyCalc <- data$Birth.rate * data$Internet.users
+demographicData$MyCalc <- demographicData$Birth.rate * demographicData$Internet.users
 head(data)
 
-data$xyz <- 1:5 # recycles
+demographicData$xyz <- 1:5 # recycles
 head(data, n=12)
 
 # Remove column
-data$MyCalc <- NULL
-data$xyz <- NULL
-head(data)
+demographicData$MyCalc <- NULL
+demographicData$xyz <- NULL
+head(demographicData)

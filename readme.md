@@ -78,7 +78,7 @@
 * [Basic operations with a data frame](section%205/basic_operations_with_a_data_frame.R)
 * [Filtering a data frame](section%205/filtering_a_data_frame.R)
 * [Introduction to qplot](section%205/introduction_to_qplot.R)
-* [Visualizing with qplot](section%205/visualizing_with_qplot.R)
+* [Visualizing with qplot - Part 1](section%205/visualizing_with_qplot_1.R)
   - Produce a scatterplot illustrating Birth Rate and Internet Usage statistics by Country.
 
     The scatterplot needs to also be categorised by Countries' Income Groups.
@@ -86,6 +86,8 @@
   - Produce a second scatterplot also illustrating Birth Rate and Internet Usage statistics by Country.
 
     However, this time the scatterplot needs to be categorised by Countries’ Regions.
-    
+
     Additional data has been supplied in the form of R vectors.
     - [Country & Region vectors](section%205/CountryRegionVectors.R)
+* [Merging data frames](section%205/merging_data_frames.R)
+* [Visualizing with qplot - Part 2](section%205/visualizing_with_qplot_2.R)

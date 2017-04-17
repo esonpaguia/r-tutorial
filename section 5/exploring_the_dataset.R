@@ -1,15 +1,12 @@
-library("rstudioapi")
+# Run load_demographic_dataset.R first
+source("load_demographic_dataset.R")
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+nrow(demographicData)
+ncol(demographicData)
 
-data <- read.csv("DemographicData.csv")
+head(demographicData) # top, default to 6
+tail(demographicData) # bottom, default to 6
 
-nrow(data)
-ncol(data)
+str(demographicData) # structure
 
-head(data) # top, default to 6
-tail(data) # bottom, default to 6
-
-str(data) # structure
-
-summary(data)
+summary(demographicData)

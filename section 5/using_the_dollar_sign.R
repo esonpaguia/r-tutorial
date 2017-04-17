@@ -1,18 +1,15 @@
-library("rstudioapi")
+# Run load_demographic_dataset.R first
+source("load_demographic_dataset.R")
 
-setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-
-data <- read.csv("DemographicData.csv")
-
-data[3,3]
-data[3, "Birth.rate"]
+demographicData[3,3]
+demographicData[3, "Birth.rate"]
 
 # $ sign is used to access data inisde a data frame. It does NOT work in matrices
-data$Birth.rate[3]
+demographicData$Birth.rate[3]
 
 # These two are identical
-data$Birth.rate
-data[, "Birth.rate"]
+demographicData$Birth.rate
+demographicData[, "Birth.rate"]
 
 # Retrive the levels
-levels(data$Income.Group)
+levels(demographicData$Income.Group)

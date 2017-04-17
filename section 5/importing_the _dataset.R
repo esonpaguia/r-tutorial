@@ -9,7 +9,7 @@ data
 #setwd("C:\\Users\\Eson\\github\\rtutorial")
 
 # Mac 
-setwd("/Users/eddisonpaguia/github/rtutorial")
+# setwd("/Users/eddisonpaguia/github/rtutorial")
 
 # Rstudio only but you have to save the file first
 library("rstudioapi")
