@@ -81,4 +81,6 @@
 * [Visualizing with qplot](section%205/visualizing_with_qplot.R)
   - Produce a scatterplot illustrating Birth Rate and Internet Usage statistics by Country.
 
-    The scatterplot needs to also be categorised by Countries’ Income Groups.
+    The scatterplot needs to also be categorised by Countries' Income Groups.
+* [Building data frames](section%205/building_data_frames.R)
+  - Additional dataset: [CountryRegionVectors](section%205/CountryRegionVectors.R)
