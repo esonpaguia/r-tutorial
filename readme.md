@@ -83,4 +83,7 @@
 
     The scatterplot needs to also be categorised by Countries' Income Groups.
 * [Building data frames](section%205/building_data_frames.R)
-  - Additional dataset: [Country & Region vectors](section%205/CountryRegionVectors.R)
+  - Produce a second scatterplot also illustrating Birth Rate and Internet Usage statistics by Country.
+    However, this time the scatterplot needs to be categorised by Countries’ Regions.
+    Additional data has been supplied in the form of R vectors.
+    - [Country & Region vectors](section%205/CountryRegionVectors.R)
