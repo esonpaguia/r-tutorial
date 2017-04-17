@@ -68,8 +68,8 @@
 
     The data has been supplied in the form of vectors. You will have to create the two matrices before you proceed with the analysis.
 
-    * [Dataset](section%204/free_throws_dataset.R)
-    * [Solution](section%204/free_throws_solution.R)
+  * [Dataset](section%204/free_throws_dataset.R)
+  * [Solution](section%204/free_throws_solution.R)
 
 ## Section 5: Data Frames
 * [Importing the dataset](section%205/importing_the_dataset.R)
@@ -78,3 +78,7 @@
 * [Basic operations with a data frame](section%205/basic_operations_with_a_data_frame.R)
 * [Filtering a data frame](section%205/filtering_a_data_frame.R)
 * [Introduction to qplot](section%205/introduction_to_qplot.R)
+* [Visualizing with qplot](section%205/visualizing_with_qplot.R)
+  - You are required to produce a scatterplot illustrating Birth Rate and Internet Usage statistics by Country.
+
+  The scatterplot needs to also be categorised by Countries’ Income Groups. 
