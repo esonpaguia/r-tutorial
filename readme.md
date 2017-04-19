@@ -2,7 +2,7 @@
 
 ## Section 1
 * [ggplot](section%201/ggplot.R)
-  * [Mispriced-diamonds data](section%201/mispriced_diamonds.R)
+  * [Mispriced-diamonds data](section%201/Section1_Exercise_Dataset.csv)
 
 ## Section 2: Core Programming Principles
 * [Types of variables](section%202/types_of_variables.R)
@@ -12,7 +12,7 @@
 * ["For" loop](section%202/for_loop.R)
 * ["If" statement](section%202/if_statement.R)
 * Exercise
-  * [Law of large numbers](section%202/law_of_large_number.R)
+  * [Law of large numbers](section%202/Section2_Exercise_Law_of_Large_Numbers.R)
 
 ## Section 3: Fundamentals of R
 * [Vectors](section%203/vectors.R)
@@ -23,9 +23,7 @@
 * Exercise
   * Scenario
 
-    You are a Data Scientist working for a consulting firm. One of your colleagues from the Auditing department has asked you to help them assess the financial statement of organization X.
-
-    You have been supplied with two vectors of data: monthly revenue and monthly expenses for the financial year in question. Your task is to calculate the following financial metrics:
+    You have been supplied with two vectors of data: monthly revenue and monthly expenses for the financial year in question. Calculate the following financial metrics:
       - Profit for each month
       - Profit after tax for each month (the tax rate is 30%)
       - Profit margin for each month - equals to profit after tax divided by revenue
@@ -38,10 +36,10 @@
 
     Results for dollar values need to be calculated with $0.01 precision, but need to be presented in Units of $1000 (i.e. 1k) with no decimal points.
 
-    Note: Your colleague has warned you that it is okay for tax for any given month to be negative (in accounting terms, negative tax translates into a deferred tax asset).
+    Note: It is okay for tax for any given month to be negative (in accounting terms, negative tax translates into a deferred tax asset).
 
-  * [Dataset](section%203/financial_statement_analysis_dataset.R)
-  * [Solution](section%203/financial_statement_analysis_solution.R)
+  * [Dataset](section%203/Section3_Exercise_Dataset.R)
+  * [Solution](section%203/Section3_Exercise_Solution.R)
 
 ## Section 4: Matrices
 * [Basketball Data](section%204/basketball_dataset.R)
@@ -57,19 +55,19 @@
 * Exercise
   * Scenario
 
-    You have been supplied data for two more additional in-game statistics:
+    Below are two more additional in-game statistics:
     * Free Throws
     * Free Throw Attempts
 
-    You need to create three plots that portray the following insights:
+    Create three plots that portray the following insights:
     * Free Throw Attempts per game
     * Accuracy of Free Throws
     * Player playing style (2 vs 3 points preference) excluding Free Throws. Each Free Throw is worth 1 points
 
-    The data has been supplied in the form of vectors. You will have to create the two matrices before you proceed with the analysis.
+    The data has been supplied in the form of vectors. Create the two matrices before you proceed with the analysis.
 
-  * [Dataset](section%204/free_throws_dataset.R)
-  * [Solution](section%204/free_throws_solution.R)
+  * [Dataset](section%204/Section4_Exercise_Dataset.R)
+  * [Solution](section%204/Section4_Exercise_Solution.R)
 
 ## Section 5: Data Frames
 * [Importing the dataset](section%205/importing_the_dataset.R)
@@ -89,3 +87,24 @@
   - Produce a second scatterplot also illustrating Birth Rate and Internet Usage statistics by Country.
 
     The scatterplot needs to be categorized by Countries' Regions.
+* Exercise
+  * Scenario
+    Produce a scatterplot depicting Life Expectancy (y-axis) and Fertility Rate (x-axis) statistics by Country.
+    The scatterplot needs to also be categorized by Countries’ Regions.
+
+    You have been supplied with data for 2 years: 1960 and 2013 and you are required to produce a visualization for each of these years.
+
+    Some data has been provided in a CSV file, some - in R vectors. The CSV file contains combined data for both years. All data manipulations have to be performed in R (not in excel) because this project may be audited at a later stage.
+
+    Provide insights into how the two periods compare.
+
+  * Datasets:
+    - [Vector](section%205/Section5_Exercise_Vectors.R)
+    - [CSV](section%205/Section5_Exercise_Data.csv)
+  * [Solution](section%205/Section5_Exercise_Solution.R)
+
+## Section 6: Advanced Visualization with GGPlot2
+- [Movie Ratings dataset](section%206/Movie-Ratings.csv)
+- [Factorized](section%206/factorized.R)
+- [Aesthetics](section%206/aesthetics.R)
+- [Plotting with layers](section%206/plotting_with_layers.R)

@@ -1,4 +1,9 @@
-# Note: Run basketball_dataset.R and free_throws_dataset.R first
+library("rstudioapi")
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
+source("basketball_dataset.R")
+source("Section4_Exercise_Dataset.R")
 
 # Create the matrices
 FreeThrows <- rbind(KobeBryant_FT, JoeJohnson_FT, LeBronJames_FT, CarmeloAnthony_FT, DwightHoward_FT, ChrisBosh_FT, ChrisPaul_FT, KevinDurant_FT, DerrickRose_FT, DwayneWade_FT)

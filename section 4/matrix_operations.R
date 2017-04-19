@@ -1,4 +1,8 @@
-# Note: Run basketball_data.R first
+library("rstudioapi")
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
+source("basketball_dataset.R")
 
 Games
 rownames(Games)

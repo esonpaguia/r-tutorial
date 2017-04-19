@@ -1,4 +1,8 @@
-# Note: Run basketball_data.R first
+library("rstudioapi")
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
+source("basketball_dataset.R")
 
 # Subset of 3 players
 data <- MinutesPlayed[1:3,]
