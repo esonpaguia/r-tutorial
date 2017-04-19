@@ -108,3 +108,4 @@
 - [Factorized](section%206/factorized.R)
 - [Aesthetics](section%206/aesthetics.R)
 - [Plotting with layers](section%206/plotting_with_layers.R)
+- [Overriding aesthetics](section%206/overriding_aesthetics.R)
