@@ -12,4 +12,4 @@ p + geom_point(aes(size=CriticRating)) # overrides the size
 p + geom_point(aes(color=BudgetMillions)) # overrides the color
 p + geom_point(aes(x=BudgetMillions)) # overrides x
 p + geom_point(aes(x=BudgetMillions)) + xlab("Budget Millions $$$") # changing x-axis label
-
+p + geom_line(size=1) + geom_point() 

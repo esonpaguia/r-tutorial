@@ -109,3 +109,6 @@
 - [Aesthetics](section%206/aesthetics.R)
 - [Plotting with layers](section%206/plotting_with_layers.R)
 - [Overriding aesthetics](section%206/overriding_aesthetics.R)
+- [Mapping vs Setting](section%206/mapping_vs_setting.R)
+- [Histograms and Density charts](section%206/histograms_and_density_charts.R)
+- [Starting layer tips](section%206/starting_layer_tips.R)
