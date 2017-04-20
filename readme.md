@@ -112,3 +112,6 @@
 - [Mapping vs Setting](section%206/mapping_vs_setting.R)
 - [Histograms and Density charts](section%206/histograms_and_density_charts.R)
 - [Starting layer tips](section%206/starting_layer_tips.R)
+- [Statistical transformation](section%206/statistical_transformation.R)
+- [Using facets](section%206/using_facets.R)
+- [Coordinates](section%206/coordinates.R)
