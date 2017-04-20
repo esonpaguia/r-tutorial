@@ -115,3 +115,4 @@
 - [Statistical transformation](section%206/statistical_transformation.R)
 - [Using facets](section%206/using_facets.R)
 - [Coordinates](section%206/coordinates.R)
+- [Perfecting by adding themes](section%206/adding_themes.R)

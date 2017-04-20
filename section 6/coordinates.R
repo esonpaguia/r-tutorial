@@ -1,6 +1,9 @@
-source("load_movie_ratings_dataset.R")
-
+library(rstudioapi)
 library(ggplot2)
+
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+
+source("load_movie_ratings_dataset.R")
 
 a <- ggplot(data=movieData, aes(x=CriticRating, y=AudienceRating, size=BudgetMillions, color=Genre))
 a + geom_point()
