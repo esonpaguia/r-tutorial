@@ -105,7 +105,7 @@
 
 ## Section 6: Advanced Visualization with GGPlot2
 - Grammar of Graphics
-  ![Grammar of Graphics](images/grammar_of_graphics.jpg)
+  ![Grammar of Graphics](section%206/images/grammar_of_graphics.png)
 - [Movie Ratings dataset](section%206/Movie-Ratings.csv)
 - [Factorized](section%206/factorized.R)
 - [Aesthetics](section%206/aesthetics.R)
