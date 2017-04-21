@@ -1,7 +1,7 @@
 # R Tutorial
 
 ## Section 1
-* [ggplot](section%201/ggplot.R)
+* [ggplot sample](section%201/ggplot.R)
   * [Mispriced-diamonds data](section%201/Section1_Exercise_Dataset.csv)
 
 ## Section 2: Core Programming Principles
@@ -104,6 +104,8 @@
   * [Solution](section%205/Section5_Exercise_Solution.R)
 
 ## Section 6: Advanced Visualization with GGPlot2
+- Grammar of Graphics
+  ![Grammar of Graphics](images/grammar_of_graphics.jpg)
 - [Movie Ratings dataset](section%206/Movie-Ratings.csv)
 - [Factorized](section%206/factorized.R)
 - [Aesthetics](section%206/aesthetics.R)
