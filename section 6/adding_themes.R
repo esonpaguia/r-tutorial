@@ -1,9 +1,11 @@
+# Crosscut - BEGIN
 library(rstudioapi)
-library(ggplot2)
-
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
-
+getwd()
 source("load_movie_ratings_dataset.R")
+# Crosscut - END
+
+library(ggplot2)
 
 p <- ggplot(data=movieData, aes(x=BudgetMillions))
 h <- p + geom_histogram(binwidth = 10, aes(fill=Genre), color="Black")

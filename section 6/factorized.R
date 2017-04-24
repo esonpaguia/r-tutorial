@@ -1,4 +1,9 @@
+# Crosscut - BEGIN
+library(rstudioapi)
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+getwd()
 source("load_movie_ratings_dataset.R")
+# Crosscut - END
 
 head(movieData)
 

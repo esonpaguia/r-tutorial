@@ -16,7 +16,7 @@
 
 ## Section 3: Fundamentals of R
 * [Vectors](section%203/vectors.R)
-* [Using brackets to access vectors](section%203/using_brackets_to_access_vectors.R)
+* [Using brackets to access vectors](section%203/brackets.R)
 * [Vectorized operations](section%203/vectorized_operations.R)
 * [Functions in R](section%203/functions_in_r.R)
 * [Packages in R](section%203/packages_in_r.R)
